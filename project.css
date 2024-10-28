@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+
+nav {
+    background: #000000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: auto; 
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin: 0 18px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.a12 a {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.a12 a:hover {
+    color: #d80707;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.c1 {
+    background-color: rgb(136, 255, 0);
+    height: 1000px;
+    width: 60%;
+}
+
+.topsearch1 {
+    font-size: larger;
+    background-color: rgba(5, 248, 45, 0.027);
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 140px;
+    float: left;
+    width: 50%;
+}
+.topsearch1 img{
+    margin-bottom: 50px;
+    margin-left: none;
+    margin-top: 26px;
+    margin-right: 50px;
+    border-radius: 4%;
+}
+
+
+.c2 {
+    display: flex; 
+    flex-direction: column; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 4, 255);
+    height: 1000px;
+    width: 40%;
+}
+
+
+.food {
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    overflow: auto; /* Prevent overflow */
+}
+
+.food img {
+    display: block; /* Ensure no space below the image */
+    width: 100%; /* Make sure image fills the parent */
+    height: 570px; /* Maintain aspect ratio */
+}
+.food1 img {
+    display: block; /* Ensure no space below the image */
+    width: 100%; /* Make sure image fills the parent */
+    height: 430px; /* Maintain aspect ratio */
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    color: #bbb;
+    display: block;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #bbb;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+.search{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 200px;
+    height: 55px;
+    border: 2px solid #080000;
+    border-radius: 17px;
+    overflow: hidden;
+}
+.search-bar input[type="text"] {
+    height: 100%;
+    border: none;
+    padding: 0 15px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 26px;
+    flex: 1;
+}
+/* Button styling */
+.search-bar button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 0 25px;
+    cursor: pointer;
+    height: 100%;
+    font-size: 26px;
+
+}
+.search-bar button:hover {
+    background-color: #555;
+}
+
